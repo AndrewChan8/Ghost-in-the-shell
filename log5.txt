@@ -1,0 +1,95 @@
+==91072== Memcheck, a memory error detector
+==91072== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==91072== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==91072== Command: ./part5 -f input.txt
+==91072== 
+total 1200
+232 Project2_Report_Andrew_Chan.docx
+148 part5.png
+  8 part5.c
+ 32 part5
+100 part4.png
+  8 part4.c
+ 28 part4
+176 part3.png
+  8 part3.c
+ 24 part3
+212 part2.png
+  4 part2.c
+ 24 part2
+ 56 part1.png
+  4 part1.c
+ 24 part1
+  4 Makefile
+  4 log5.txt
+  4 log4.txt
+  4 log3.txt
+  4 log2.txt
+  4 log1.txt
+  4 iobound.c
+ 20 iobound
+  4 input.txt
+  4 cpubound.c
+ 16 cpubound
+ 32 compile.png
+  4 ..
+  4 .
+Process 91073 has already terminated, skipping time slice adjustment.
+Execvp failed: No such file or directory
+==91075== 
+==91075== HEAP SUMMARY:
+==91075==     in use at exit: 0 bytes in 0 blocks
+==91075==   total heap usage: 7 allocs, 7 frees, 9,196 bytes allocated
+==91075== 
+==91075== All heap blocks were freed -- no leaks are possible
+==91075== 
+==91075== For lists of detected and suppressed errors, rerun with: -s
+==91075== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+Process 91075 has already terminated, skipping time slice adjustment.
+Process 91074 has already terminated, skipping time slice adjustment.
+Process: 91076 - Begining to write to file.
+Process: 91076 - Finished.
+Process 91076 has already terminated, skipping time slice adjustment.
+Process: 91077 - Begining calculation.
+Process: 91077 - Finished.
+Scheduling Process 91073
+
+PID	utime	stime	time	nice	virt mem
+91074 - 0.000000 0.000000 0.000000    0  5595136
+91075 - 0.000000 0.000000 0.000000    0  99831808
+91076 - 0.000000 0.000000 0.000000    0  99831808
+91077 - 0.000000 0.000000 0.000000    0  99831808
+
+PID	utime	stime	time	nice	virt mem
+91074 - 0.000000 0.000000 0.000000    0  5595136
+91076 - 0.910000 0.080000 0.990000    0  2519040
+91077 - 0.000000 0.000000 0.000000    0  99831808
+
+PID	utime	stime	time	nice	virt mem
+91076 - 0.910000 0.080000 0.990000    0  2519040
+91077 - 0.690000 0.300000 0.990000    0  2519040
+
+PID	utime	stime	time	nice	virt mem
+91076 - 2.760000 0.240000 3.000000    0  2519040
+91077 - 2.060000 0.930000 2.990000    0  2519040
+
+PID	utime	stime	time	nice	virt mem
+91076 - 4.580000 0.410000 4.990000    0  2519040
+91077 - 3.410000 1.580000 4.990000    0  2519040
+
+PID	utime	stime	time	nice	virt mem
+91076 - 6.420000 0.560000 6.980000    0  2519040
+91077 - 4.690000 2.300000 6.990000    0  2519040
+
+PID	utime	stime	time	nice	virt mem
+91076 - 8.300000 0.680000 8.980000    0  2519040
+91077 - 6.080000 2.910000 8.990000    0  2519040
+==91072== 
+==91072== HEAP SUMMARY:
+==91072==     in use at exit: 0 bytes in 0 blocks
+==91072==   total heap usage: 64 allocs, 64 frees, 55,180 bytes allocated
+==91072== 
+==91072== All heap blocks were freed -- no leaks are possible
+==91072== 
+==91072== For lists of detected and suppressed errors, rerun with: -s
+==91072== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
